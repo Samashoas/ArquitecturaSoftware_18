@@ -767,7 +767,7 @@ function Feynman({ estado, setEstado, onAprobar }) {
 /* ===================================================================
    App
    =================================================================== */
-export default function AppArquitectura() {
+export default function App() {
   const [etapa, setEtapa] = useState(0);
   const [max, setMax] = useState(0);
   const [niveles, setNiveles] = useState(Array(5).fill(false));
